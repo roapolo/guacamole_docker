@@ -1,0 +1,5 @@
+.env
+certs/*.crt
+certs/*.key
+init/01_guacamole_schema.sql
+mariadb_data/

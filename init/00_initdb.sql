@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS guacamole_db;
+CREATE USER IF NOT EXISTS 'guacamole_user'@'%' IDENTIFIED BY 'ChangeMeUser123!';
+GRANT SELECT,INSERT,UPDATE,DELETE ON guacamole_db.* TO 'guacamole_user'@'%';
+FLUSH PRIVILEGES;

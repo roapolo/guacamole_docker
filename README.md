@@ -9,7 +9,7 @@ Proyecto listo para clonar y arrancar Apache Guacamole con Docker Compose.
 - MariaDB
 - NGINX como proxy
 - Redireccion de `80` a `443`
-- Certificado autofirmado con `CN=TFG` por defecto
+- Certificado autofirmado con opción de CN 
 
 ## Requisitos
 

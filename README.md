@@ -1,6 +1,6 @@
 # Apache Guacamole Docker
 
-Proyecto listo para clonar y arrancar con Docker Compose.
+Proyecto listo para clonar y arrancar Apache Guacamole con Docker Compose.
 
 ## Incluye
 
@@ -26,10 +26,10 @@ cp .env.example .env
 
 Edita `.env` y cambia como minimo:
 
-- `MYSQL_ROOT_PASSWORD`
+- `MYSQL_ROOT_PASSWORD` 
 - `MYSQL_PASSWORD`
-- `MYSQL_USER` si quieres otro distinto
-- `MYSQL_DATABASE` si quieres otro nombre
+- `MYSQL_USER` 
+- `MYSQL_DATABASE`  
 - `SERVER_NAME`
 - `CERT_CN`
 

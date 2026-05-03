@@ -1,6 +1,6 @@
 services:
   mariadb:
-    image: mariadb:11
+    image: mariadb:latest
     container_name: guacamole_mariadb
     restart: unless-stopped
     environment:
